@@ -3,6 +3,7 @@ package setup
 var Set *Setup
 
 type Setup struct {
+	PathData string   `toml:"data"`
 	DataBase DataBase `toml:"dataBase"`
 }
 
