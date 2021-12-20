@@ -59,7 +59,7 @@ func main() {
 				p := int(rand.Intn(1000))
 				o := int(rand.Intn(1000))
 				hg.Graph = append(hg.Graph, grp.GraphLine{Start: st, Pr: p, Ob: o})
-				st += 30
+				st += 120
 			}
 			h, _ := json.Marshal(hg)
 			path := setup.Set.PathData + os.Args[2] + ".json"
